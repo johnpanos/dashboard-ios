@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		523CA29D223B093900D1FBBF /* SwiftSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523CA29C223B093900D1FBBF /* SwiftSocket.framework */; };
+		523CA29E223B093900D1FBBF /* SwiftSocket.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 523CA29C223B093900D1FBBF /* SwiftSocket.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		523CA2A1223B09AA00D1FBBF /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523CA2A0223B09AA00D1FBBF /* DashboardViewModel.swift */; };
+		523CA2A3223B1D5200D1FBBF /* M13Checkbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523CA2A2223B1D5200D1FBBF /* M13Checkbox.framework */; };
+		523CA2A4223B1D5200D1FBBF /* M13Checkbox.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 523CA2A2223B1D5200D1FBBF /* M13Checkbox.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		523CA2A6223B5E6D00D1FBBF /* RevealingSplashView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 523CA2A5223B5E6D00D1FBBF /* RevealingSplashView.framework */; };
+		523CA2A7223B5E6D00D1FBBF /* RevealingSplashView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 523CA2A5223B5E6D00D1FBBF /* RevealingSplashView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		524174B322388F4500A6234E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524174B222388F4500A6234E /* AppDelegate.swift */; };
 		524174B522388F4500A6234E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524174B422388F4500A6234E /* ViewController.swift */; };
-		524174B822388F4500A6234E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524174B622388F4500A6234E /* Main.storyboard */; };
 		524174BA22388F4600A6234E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524174B922388F4600A6234E /* Assets.xcassets */; };
 		524174BD22388F4600A6234E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524174BB22388F4600A6234E /* LaunchScreen.storyboard */; };
 		524174C822388F4700A6234E /* DashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524174C722388F4700A6234E /* DashboardTests.swift */; };
 		524174D322388F4700A6234E /* DashboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524174D222388F4700A6234E /* DashboardUITests.swift */; };
+		528C0884223AF6C300AFB357 /* FieldPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C0883223AF6C300AFB357 /* FieldPoint.swift */; };
+		528C0886223AF72600AFB357 /* UIFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528C0885223AF72600AFB357 /* UIFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,11 +41,30 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		523CA29F223B093900D1FBBF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				523CA2A7223B5E6D00D1FBBF /* RevealingSplashView.framework in Embed Frameworks */,
+				523CA29E223B093900D1FBBF /* SwiftSocket.framework in Embed Frameworks */,
+				523CA2A4223B1D5200D1FBBF /* M13Checkbox.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		523CA29C223B093900D1FBBF /* SwiftSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftSocket.framework; path = Carthage/Build/iOS/SwiftSocket.framework; sourceTree = "<group>"; };
+		523CA2A0223B09AA00D1FBBF /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
+		523CA2A2223B1D5200D1FBBF /* M13Checkbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = M13Checkbox.framework; path = Carthage/Build/iOS/M13Checkbox.framework; sourceTree = "<group>"; };
+		523CA2A5223B5E6D00D1FBBF /* RevealingSplashView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RevealingSplashView.framework; path = Carthage/Build/iOS/RevealingSplashView.framework; sourceTree = "<group>"; };
 		524174AF22388F4500A6234E /* Dashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		524174B222388F4500A6234E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		524174B422388F4500A6234E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		524174B722388F4500A6234E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		524174B922388F4600A6234E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		524174BC22388F4600A6234E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		524174BE22388F4600A6234E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +74,8 @@
 		524174CE22388F4700A6234E /* DashboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DashboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		524174D222388F4700A6234E /* DashboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardUITests.swift; sourceTree = "<group>"; };
 		524174D422388F4700A6234E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		528C0883223AF6C300AFB357 /* FieldPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldPoint.swift; sourceTree = "<group>"; };
+		528C0885223AF72600AFB357 /* UIFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523CA2A6223B5E6D00D1FBBF /* RevealingSplashView.framework in Frameworks */,
+				523CA29D223B093900D1FBBF /* SwiftSocket.framework in Frameworks */,
+				523CA2A3223B1D5200D1FBBF /* M13Checkbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +109,9 @@
 		524174A622388F4500A6234E = {
 			isa = PBXGroup;
 			children = (
+				523CA2A5223B5E6D00D1FBBF /* RevealingSplashView.framework */,
+				523CA2A2223B1D5200D1FBBF /* M13Checkbox.framework */,
+				523CA29C223B093900D1FBBF /* SwiftSocket.framework */,
 				524174B122388F4500A6234E /* Dashboard */,
 				524174C622388F4700A6234E /* DashboardTests */,
 				524174D122388F4700A6234E /* DashboardUITests */,
@@ -99,10 +134,12 @@
 			children = (
 				524174B222388F4500A6234E /* AppDelegate.swift */,
 				524174B422388F4500A6234E /* ViewController.swift */,
-				524174B622388F4500A6234E /* Main.storyboard */,
 				524174B922388F4600A6234E /* Assets.xcassets */,
 				524174BB22388F4600A6234E /* LaunchScreen.storyboard */,
 				524174BE22388F4600A6234E /* Info.plist */,
+				528C0883223AF6C300AFB357 /* FieldPoint.swift */,
+				528C0885223AF72600AFB357 /* UIFieldView.swift */,
+				523CA2A0223B09AA00D1FBBF /* DashboardViewModel.swift */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -135,6 +172,7 @@
 				524174AB22388F4500A6234E /* Sources */,
 				524174AC22388F4500A6234E /* Frameworks */,
 				524174AD22388F4500A6234E /* Resources */,
+				523CA29F223B093900D1FBBF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +269,6 @@
 			files = (
 				524174BD22388F4600A6234E /* LaunchScreen.storyboard in Resources */,
 				524174BA22388F4600A6234E /* Assets.xcassets in Resources */,
-				524174B822388F4500A6234E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				528C0884223AF6C300AFB357 /* FieldPoint.swift in Sources */,
+				523CA2A1223B09AA00D1FBBF /* DashboardViewModel.swift in Sources */,
+				528C0886223AF72600AFB357 /* UIFieldView.swift in Sources */,
 				524174B522388F4500A6234E /* ViewController.swift in Sources */,
 				524174B322388F4500A6234E /* AppDelegate.swift in Sources */,
 			);
@@ -293,14 +333,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		524174B622388F4500A6234E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				524174B722388F4500A6234E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		524174BB22388F4600A6234E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,15 +464,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PWDM4W55V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Dashboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.panos.Dashboard;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.panos.Dashboard-2019";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,15 +489,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PWDM4W55V;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Dashboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.panos.Dashboard;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.panos.Dashboard-2019";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
